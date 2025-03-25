@@ -4,16 +4,7 @@
 
 ## Abstract
 
-Transformer-based large-scale pre-trained models have achieved great success across various natural language processing tasks. Fine-tuning is the standard approach to adapt these models for downstream applications. Among the fine-tuning techniques, adapter-tuning offers a parameter-efficient method by introducing lightweight trainable modules while keeping the majority of pretrained parameters frozen. However, even with adapter-tuning, significant resource usage remains.
-
-In this paper, we investigate the unequal contribution of each adapter to both task performance and resource consumption. Based on this insight, we propose **Selective Adapter FrEezing (SAFE)**, a method that gradually freezes less important adapters during the fine-tuning process to reduce unnecessary resource usage while maintaining or even improving performance.
-
-Our experiments show that SAFE reduces:
-- Memory usage by **42.85%**
-- Computation amount by **34.59%**
-- Training time by **11.82%**
-
-While maintaining comparable or better task performance compared to the baseline. Additionally, SAFE induces a regularization effect that smooths the loss landscape, which helps the model generalize better by avoiding sharp minima.
+Transformer-based large-scale pre-trained models achieve great success. Fine-tuning is the standard practice for leveraging these models in downstream tasks. Among the fine-tuning methods, adapter-tuning provides a parameter-efficient fine-tuning by introducing lightweight trainable modules while keeping most pre-trained parameters frozen. However, existing adapter-tuning methods still impose substantial resource usage. Through our investigation, we show that each adapter unequally contributes to both task performance and resource usage. Motivated by this insight, we propose **Selective Adapter FrEezing (SAFE)**, which gradually freezes less important adapters early to reduce unnecessary resource usage while maintaining performance. In our experiments, SAFE reduces memory usage, computation amount, and training time by 42.85%, 34.59%, and 11.82%, respectively, while achieving comparable or better task performance compared to the baseline. We also demonstrate that SAFE induces regularization effect, thereby smoothing the loss landscape, which enables the model to generalize better by avoiding sharp minima.
 
 ## Code
 
