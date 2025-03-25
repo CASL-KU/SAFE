@@ -1,5 +1,5 @@
 # SAFE: Selective Adapter Freezing for Memory Efficient Fine Tuning of Language Models
-[NAACL 2025] Not All Adapters Matter: Selective Adapter Freezing for Memory-Efficient Fine-Tuning of Language Models
+**[NAACL 2025] Not All Adapters Matter: Selective Adapter Freezing for Memory-Efficient Fine-Tuning of Language Models**
 
 
 ## Abstract
@@ -34,5 +34,8 @@ Please cite our work using the following Bibtex entry
   journal={arXiv preprint arXiv:2412.03587},
   year={2024}
 }
+```
+
+
 
 We encourage researchers and practitioners to explore and apply **Selective Adapter FrEezing (SAFE)** to address challenges in memory-efficient fine-tuning, particularly in settings where resource constraints are critical. This approach offers a promising avenue for improving the performance and efficiency of language models in various real-world applications, especially in environments with limited computational resources.
