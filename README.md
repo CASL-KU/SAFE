@@ -1,5 +1,5 @@
 # SAFE: Selective Adapter Freezing for Memory Efficient Fine Tuning of Language Models
-**[NAACL 2025] Not All Adapters Matter: Selective Adapter Freezing for Memory-Efficient Fine-Tuning of Language Models**
+**[NAACL 2025] [Not All Adapters Matter: Selective Adapter Freezing for Memory-Efficient Fine-Tuning of Language Models]([url](https://aclanthology.org/2025.naacl-long.480/))**
 
 
 ## Abstract
