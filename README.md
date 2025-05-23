@@ -1,5 +1,5 @@
 # SAFE: Selective Adapter Freezing for Memory Efficient Fine Tuning of Language Models
-**[NAACL 2025] [Not All Adapters Matter: Selective Adapter Freezing for Memory-Efficient Fine-Tuning of Language Models](https://aclanthology.org/2025.naacl-long.480/)**
+**[[NAACL 2025] Not All Adapters Matter: Selective Adapter Freezing for Memory-Efficient Fine-Tuning of Language Models](https://aclanthology.org/2025.naacl-long.480/)**
 
 
 ## Abstract
@@ -15,8 +15,9 @@ The official code for the paper will be released soon. Stay tuned for updates!
 Instructions for setting up the environment and installing dependencies will be provided once the code is released.
 
 ## Paper
-Proceeding [https://aclanthology.org/2025.naacl-long.480/](https://aclanthology.org/2025.naacl-long.480/)
-arXiv [https://arxiv.org/pdf/2412.03587](https://arxiv.org/pdf/2412.03587)
+**Proceeding**: [https://aclanthology.org/2025.naacl-long.480/](https://aclanthology.org/2025.naacl-long.480/)
+
+**arXiv**: [https://arxiv.org/pdf/2412.03587](https://arxiv.org/pdf/2412.03587)
 
 ## Citations
 
